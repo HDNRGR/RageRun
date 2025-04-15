@@ -1,7 +1,7 @@
 // Set up the canvas and game context
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
-const jumpSound = new Audio('Audio/JumpSoundEffect.mp3'); // Jump sound effect
+const jumpSound = new Audio('JumpSoundEffect.mp3'); // Jump sound effect
 
 canvas.width = 800;
 canvas.height = 600;
