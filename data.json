@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "username": "dev_god",
+      "score": 324,
+      "rank": 1
+    },
+    {
+      "id": 2,
+      "username": "squasher",
+      "score": 299,
+      "rank": 2
+    },
+    {
+      "id": 3,
+      "username": "css_ninja",
+      "score": 284,
+      "rank": 3
+    },
+    {
+        "id": 4,
+        "username": "senna",
+        "score": 255,
+        "rank": 4
+      },
+      {
+        "id": 2,
+        "username": "jccckkk",
+        "score": 244,
+        "rank": 5
+      },
+      {
+        "id": 3,
+        "username": "sleepr",
+        "score": 232,
+        "rank": 6
+      }
+  ]
+  

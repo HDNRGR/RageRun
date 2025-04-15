@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAGE RUN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="popup" style="display: none;">
+        <div class="popup-content">
+            <p>GAME OVER!
+                <h2>🏆 Leaderboard</h2>
+                <div id="leaderboard"></div>
+                <br>Your Score: <span id="finalScore">0</span></p>
+            <button id="refreshButton">RESTART</button>
+            <h5>Leaderboard data extracted 
+                <br>from a JSON file and displayed</h5>
+        </div>
+    </div>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
