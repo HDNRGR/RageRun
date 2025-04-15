@@ -12,7 +12,6 @@ canvas {
     border: 2px solid black;
 }
 
-/* Modal styles */
 #popup {
     font-family: 'futures';
     font-size: 2vw;
@@ -21,11 +20,11 @@ canvas {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000; /* Make sure it's above other elements */
+    z-index: 1000;
     backdrop-filter: blur(5px);
 }
 
@@ -35,9 +34,9 @@ canvas {
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 80vw; /* Ensure it doesn’t take up the whole screen */
-    max-height: 80vh; /* Limit the height */
-    overflow-y: auto; /* Scroll if content is too long */
+    max-width: 80vw;
+    max-height: 80vh;
+    overflow-y: auto;
 }
 
 #refreshButton {
@@ -54,27 +53,25 @@ canvas {
     transition: transform 0.4s ease-out, box-shadow 0.6s ease-out;
 }
 
-/* Adjust the positioning of the leaderboard */
 #leaderboard {
     font-family: monospace;
     background: #f0f0f0;
     padding: 10px;
     border-radius: 8px;
     max-width: 300px;
-    margin-top: 20px; /* Add some margin from the previous content */
+    margin-top: 20px;
     text-align: center;
     overflow-y: auto;
-    height: 200px; /* Set a height to avoid overflowing */
-    margin: 0 auto; /* Center horizontally */
+    height: 200px;
+    margin: 0 auto;
     font-size: 2vw;
 }
 
-/* Ensure there is no overlap with leaderboard entries */
 .leaderboard-entry {
     padding: 4px 0;
 }
 
 h5 {
-    font-family: 'Arial', sans-serif; /* Choose your font */
-    font-size: 1.2rem; /* Adjust the font size */
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
 }
